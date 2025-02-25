@@ -12,14 +12,14 @@ x-common:
     APP_URL: "https://pterodactyl.example.com"
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "UTC"
-    APP_SERVICE_AUTHOR: "noreply@example.com"
-    TRUSTED_PROXIES: "*" # Set this to your proxy IP
+    APP_SERVICE_AUTHOR: "hegarmanah711@gmail.com"
+    TRUSTED_PROXIES: "104.21.79.51" # Set this to your proxy IP
     # Uncomment the line below and set to a non-empty value if you want to use Let's Encrypt
     # to generate an SSL certificate for the Panel.
     # LE_EMAIL: ""
   mail:
     &mail-environment
-    MAIL_FROM: "noreply@example.com"
+    MAIL_FROM: "hegarmanah711@gmail.com"
     MAIL_DRIVER: "smtp"
     MAIL_HOST: "mail"
     MAIL_PORT: "1025"
