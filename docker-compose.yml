@@ -9,11 +9,11 @@ x-common:
   panel:
     &panel-environment
     # This URL should be the URL that your reverse proxy routes to the panel server
-    APP_URL: "https://panel.sakaiding.my.id"
+    APP_URL: "https://pterodactyl.example.com"
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "UTC"
     APP_SERVICE_AUTHOR: "hegarmanah711@gmail.com"
-    TRUSTED_PROXIES: "104.21.79.51" # Set this to your proxy IP
+    TRUSTED_PROXIES: "*" # Set this to your proxy IP
     # Uncomment the line below and set to a non-empty value if you want to use Let's Encrypt
     # to generate an SSL certificate for the Panel.
     # LE_EMAIL: ""
